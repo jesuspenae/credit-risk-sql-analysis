@@ -46,9 +46,9 @@ SQL analysis of credit risk patterns across 32,581 loan applicants — identifyi
 | File | Description |
 |---|---|
 | `credit_risk_analysis.sql` | All 6 queries with objectives and comments |
-| `credit_risk_dataset.csv` | Raw dataset from Kaggle |
+| `credit_risk.csv` | Raw dataset from Kaggle |
 
-> 🗒️ **Note:** Queries run on SQLite. Import the CSV into [sqliteonline.com](https://sqliteonline.com) using **First line** as column name setting before running the queries.
+> 🗒️ **Note:** Queries run on SQLite. Import `credit_risk.csv` into [sqliteonline.com](https://sqliteonline.com) using **First line** as column name setting. The table name will default to `credit_risk`, matching all query references.
 
 ---
 
